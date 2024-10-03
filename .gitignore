@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+.venv/
+*.env
+
+# Wav files
+*.wav
+
+# Jupyter notebooks
+.ipynb_checkpoints
+
+# Logs
+*.log
+*.out
+
+# TensorBoard
+runs/
