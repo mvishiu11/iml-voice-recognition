@@ -14,18 +14,20 @@ This project aims to develop a machine learning module for voice-based recogniti
    ```bash
    git clone https://github.com/yourusername/iml-voice-recognition.git
    cd iml-voice-recognition
-```
-4. Create and activate the environment:
-5. ```bash
+   ```
+
+1. Create and activate the environment:
+
+   ```bash
    conda env create -f environment.yml
    conda activate iml-voice-recognition
    ```
-6. Install pre-commit hooks:
+1. Install pre-commit hooks:
 
    ```bash
    pre-commit install
    ```
-7. Run Jupyter notebooks:
+1. Run Jupyter notebooks:
 
    ```bash
    jupyter lab
@@ -36,8 +38,9 @@ This project aims to develop a machine learning module for voice-based recogniti
 - The `notebooks/` folder contains exploratory and model training notebooks.
 - Use `tensorboard` to track experiments:
   ```bash
-  tensorboard --logdir=runs
-- You can see the previous experiments on tensorboard by running the following command:
+  tensorboard --logdir=logs
+  ```
+- You can see the previous experiments on tensorboard by running the same command:
   ```bash
   tensorboard --logdir=logs
   ```
