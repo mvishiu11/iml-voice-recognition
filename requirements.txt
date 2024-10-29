@@ -8,3 +8,5 @@ jupyterlab
 tensorboard
 scikit-learn
 pandas
+seaborn
+librosa
